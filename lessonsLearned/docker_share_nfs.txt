@@ -1,0 +1,3 @@
+tags: docker host nfs -v --volume share
+
+If you want to share a mounted NFS volume with a docker container, make sure you restarted docker serivice on the host after mounting the NFS share. Otherwise the target folder in docker will remain empty.

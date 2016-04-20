@@ -1,0 +1,3 @@
+tags: sasl shadow sasl2d saslauthd
+
+Besides /etc/sasl2 and /etc/sasl, there is also /etc/sysconfig/saslauthd to configure the behaviour of saslauthd. To configure saslauthd to use /etc/shadow, set MEACHANISM in /etc/sysconfig/saslauthd.

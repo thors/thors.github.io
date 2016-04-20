@@ -1,0 +1,5 @@
+tags: vpn fedora openconnect openvpn
+
+Fedora openconnect has a bug with a too short timeout, preventing vpn connections
+Workaround: Open screen session as root and start
+/usr/libexec/nm-openconnect-service --debug --persist

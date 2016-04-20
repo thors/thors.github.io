@@ -1,0 +1,9 @@
+tags: centos firewall firewall-cmd
+
+In centos, the firewall is confgured using the firewall-cmd command. Examples:
+
+To open port 25565:
+firewall-cmd --zone=public --permanent --add-port=25565/tcp
+
+For named services:
+firewall-cmd --zone=public --permanent --add-service=http
