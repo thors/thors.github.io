@@ -1,4 +1,4 @@
-tags: disable touchpad typing
+tags: disable touchpad typing mouse mousepad
 
 On DELL laptop e.g.:
 xinput set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "libinput Disable While Typing Enabled" 0

@@ -1,0 +1,6 @@
+tags: git, gerrit, topic, gerrit-topic, reviewer
+
+To push a commit directly to a topic, just push to $BRANCH/$TOPIC. 
+E.g. to commit to master branch, topic 'topic_test':
+
+git push origin HEAD:refs/for/master/topic_test
